@@ -1,0 +1,17 @@
+{
+  "name": "hello-parcel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "watch": "parcel watch src/index.html",
+    "build": "parcel build src/index.html",
+    "build:js": "parcel build src/index.js"
+  },
+  "author": "Bart Wijnants",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.2.0"
+  }
+}
